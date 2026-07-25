@@ -1,0 +1,6 @@
+{
+  "name": "Galaxy Enterprise - Medical Store",
+  "description": "Your Trusted Pharmacy in Kurtha, Bihar for Genuine Medicines, Healthcare Products & WhatsApp Orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -150,14 +150,7 @@ export const Footer: React.FC<FooterProps> = ({ setActivePage, onOpenWhatsAppOrd
         <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
             © {new Date().getFullYear()} <strong className="text-slate-300">Galaxy Enterprise</strong>. All rights reserved. | Developed by{' '}
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-emerald-400 hover:text-emerald-300 font-semibold underline decoration-emerald-500/40 underline-offset-2 transition"
-            >
-              WMIT
-            </a>
+           <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
           </div>
 
           <div className="flex items-center gap-4">

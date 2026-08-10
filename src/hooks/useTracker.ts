@@ -8,7 +8,7 @@ export function useTracker(activePage?: string) {
   }, [activePage]);
 
   useEffect(() => {
-    const TRACKING_ENDPOINT = 'https://tools.cprajapati.com/tracker/track.php';
+    const TRACKING_ENDPOINT = 'https://crm.webmakerit.com/tracker/track.php';
     const urlParams = new URLSearchParams(window.location.search);
 
     const queryCid = urlParams.get('cid');
